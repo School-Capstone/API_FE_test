@@ -13,8 +13,10 @@ const WebSocketClient = () => {
   const [socket, setSocket] = useState(null);
   const [darkMode, setDarkMode] = useState(false);
 
+  // crop-ai-model-service-zvj7xjzdgq-ue.a.run.app
+
   useEffect(() => {
-    const newSocket = new WebSocket('wss://crop-ai-model-service-zvj7xjzdgq-ue.a.run.app/ws');
+    const newSocket = new WebSocket('wss://14d3-197-243-102-26.ngrok-free.app/ws');
 
     newSocket.onopen = () => {
       console.log('WebSocket connection established.');
