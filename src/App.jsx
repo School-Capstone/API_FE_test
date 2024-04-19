@@ -16,7 +16,7 @@ const WebSocketClient = () => {
   // crop-ai-model-service-zvj7xjzdgq-ue.a.run.app
 
   useEffect(() => {
-    const newSocket = new WebSocket('ws://0.tcp.in.ngrok.io:19708/ws');
+    const newSocket = new WebSocket('ws://7255-197-243-102-26.ngrok-free.app/ws');
 
     newSocket.onopen = () => {
       console.log('WebSocket connection established.');
