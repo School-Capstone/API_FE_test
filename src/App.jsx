@@ -16,7 +16,7 @@ const WebSocketClient = () => {
   // crop-ai-model-service-zvj7xjzdgq-ue.a.run.app
 
   useEffect(() => {
-    const newSocket = new WebSocket('wss://64.23.246.227/ws');
+    const newSocket = new WebSocket('wss://crop-ai-model-service-zvj7xjzdgq-ue.a.run.app/ws');
 
     newSocket.onopen = () => {
       console.log('WebSocket connection established.');
