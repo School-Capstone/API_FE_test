@@ -15,8 +15,10 @@ const WebSocketClient = () => {
 
   // crop-ai-model-service-zvj7xjzdgq-ue.a.run.app
 
+  //crop-ai-model-service-zvj7xjzdgq-ue.a.run.app
+
   useEffect(() => {
-    const newSocket = new WebSocket('wss://crop-ai-model-service-zvj7xjzdgq-ue.a.run.app/ws');
+    const newSocket = new WebSocket('wss://crop-rec-18af3bb65392.herokuapp.com/ws');
 
     newSocket.onopen = () => {
       console.log('WebSocket connection established.');
